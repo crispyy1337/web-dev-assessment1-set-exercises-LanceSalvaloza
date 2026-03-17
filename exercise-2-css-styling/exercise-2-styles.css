@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background: #bfbfbf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.card {
+    background: #e6e6e6;
+    max-width: 800px;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #3f8f12;
+    font-size: 90px;
+    margin: 0;
+    font-weight: 900;
+}
+
+h2 {
+    text-align: center;
+    color: #3f8f12;
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.section-title {
+    margin-top: 40px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 18px;
+    color: #222;
+}
+
+.info-box {
+    background: #3f8f12;
+    color: white;
+    padding: 30px;
+    border-radius: 25px;
+    margin: 40px 0;
+}
+
+.info-box h3 {
+    margin-top: 0;
+    font-size: 40px;
+}
