@@ -1,0 +1,137 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+    text-align: center;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+
+/* Cart button */
+.cart-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+
+    width: 120px;
+    /* fixed width */
+    height: 40px;
+    /* fixed height */
+    box-sizing: border-box;
+
+    background-color: #fff;
+    color: #222;
+    border: 2px solid #222;
+    cursor: pointer;
+
+    overflow: hidden;
+    /* prevents content stretching */
+}
+
+/* Prevent icon from resizing the button */
+.cart-button img {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+/* Prevent text from wrapping or expanding */
+.cart-button span {
+    white-space: nowrap;
+    font-size: 0.9rem;
+}
+
+/* Optional: keep consistent hover/focus */
+.cart-button:hover,
+.cart-button:focus {
+    background-color: #eee;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+}
+
+/* Gallery */
+figure {
+    margin: 2rem 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* Captions */
+figcaption p {
+    margin: 0.5rem 0;
+}
+
+/* Buttons */
+button {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #222;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
